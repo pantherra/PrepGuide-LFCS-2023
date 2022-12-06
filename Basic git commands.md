@@ -1,9 +1,12 @@
 Visual git cheatsheet
+
 https://ndpsoftware.com/git-cheatsheet.html#loc=index;
+
 Github training cheatsheet
+
 https://training.github.com/downloads/github-git-cheat-sheet/
 
-##Configure tooling
+## Configure tooling
 
 Configure user information for all local repositories
 
@@ -19,7 +22,7 @@ $ git config --global color.ui auto
 
 Enables helpful colorization of command line output
 
-##Create repositories
+## Create repositories
 
 A new repository can either be created locally, or an existing repository can be cloned. When a repository was initialized locally, 
 you have to push it to GitHub afterwards.
@@ -37,7 +40,7 @@ $ git clone [url]
 
 Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits
 
-##Make changes
+## Make changes
 
 Browse and inspect the evolution of project files
 
@@ -65,7 +68,7 @@ $ git commit -m "[descriptive message]"
 
 Records file snapshots permanently in version history
 
-##Synchronize changes
+## Synchronize changes
 
 Synchronize your local repository with the remote repository on GitHub.com
 
@@ -85,7 +88,7 @@ $ git pull
 
 Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge
 
-##Branches
+## Branches
 
 Branches are an important part of working with Git. Any commits you make will be made on the branch you’re currently “checked out” to. Use git status to see which branch that is.
 
@@ -105,7 +108,7 @@ $ git branch -d [branch-name]
 
 Deletes the specified branch
 
-##Redo commits
+## Redo commits
 
 Erase mistakes and craft replacement history
 
