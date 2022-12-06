@@ -2,7 +2,9 @@
 For those, who taking LFCS certification
 
 The Linux Foundation Certified System Administrator (LFCS) exam is ideal for candidates looking to validate their Linux system administration skill set.
+
 https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/
+
 This repository contains resources for each topic separated in 5 parts. 
 
 Operations and Deployment – 25%
